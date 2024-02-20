@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-tests",
+  "version": "1.0.0",
+  "description": "A repository for tests for a NodeJS API",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arthur-Bamberg/NodeJS-tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arthur-Bamberg/NodeJS-tests/issues"
+  },
+  "homepage": "https://github.com/Arthur-Bamberg/NodeJS-tests#readme",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "jest": "^29.7.0"
+  },
+  "type": "module"
+}
